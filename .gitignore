@@ -17,3 +17,65 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+# Laravel specific files
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+.env
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Laravel IDE Helper specific files
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Laravel Dusk specific files
+/.env.dusk.local
+.env.dusk.*
+
+# Laravel Telescope specific files
+/telescope/*
+!telescope/telescope.php
+
+# Ignore all test files except for phpunit.xml
+/tests/**/*
+!/tests/phpunit.xml
+
+# Ignore all compiled assets
+/public/css/app.css
+/public/js/app.js
+
+# Ignore all deployment related files
+/.env.production
+/.env.staging
+.env.local
+.env.testing
+.env.backup
+
+# Ignore all debug logs and local environment files
+*.log
+.env.*.backup
+
+# Ignore composer lock file, if you prefer to lock it yourself
+# /composer.lock
+
+# Ignore the serverless framework config file
+/serverless.yml
+
+# Ignore the VS Code config files
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore package-lock.json and yarn.lock files, if you prefer to lock it yourself
+# /package-lock.json
+# /yarn.lock
+
+# Ignore IDE specific files
+.idea/
